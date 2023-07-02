@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/app.css";
-import Search from "./search"
+ import Search from "../components/Search"; 
 
 const App = () =>{
   return (
