@@ -6,9 +6,9 @@ The task was to create a react web app that allowed users to search for images b
 
 ## Technologies Used
 
-React
-Testing: Jest and React Testing Library
-Packages: Axios
+- React
+- Testing: Jest and React Testing Library
+- Packages: Axios
 
 ## Running The App
 
