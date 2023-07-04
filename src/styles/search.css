@@ -1,8 +1,28 @@
+.search-form {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin-right: 1em;
+  margin-bottom: 4em;
+  margin-left: 1em;
+}
+
 .search-input {
-    margin: auto;
-    width: 20%;
-    height: 50px;
-    border-radius: 11px;
-    font-size: 20px;
-    padding: 0 10px;
-  }
+  width: 60%;
+  height: 50px;
+  border-radius: 11px;
+  border: 1px solid #000000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.search-button {
+  width: 30%;
+  border-radius: 11px;
+  border: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000000;
+}
