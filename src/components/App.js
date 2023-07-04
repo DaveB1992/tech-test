@@ -4,7 +4,7 @@ import Search from "../components/Search";
 import SearchResults from './SearchResults';
 
 const App = () =>{
-const [searchResults, setSearchResults ] = useState()
+const [searchResults, setSearchResults ] = useState([])
 
   return (
     <div className='app'>
@@ -13,10 +13,13 @@ const [searchResults, setSearchResults ] = useState()
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
         alt="nasaLogo"
       />
-      <Search setSearchResults={searchResults}/>
-      <SearchResults />
+      <Search setSearchResults={setSearchResults}/>
+      <SearchResults results={searchResults} />
+      
     </div>
   )
 }
+
+
 
 export default App;
